@@ -1,0 +1,66 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.App{
+  justify-content: center;
+}
+
+.maincontent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin: 10px; */
+}
+
+.flex2{
+  margin: 30px;
+}
+.seattypediv{
+  display: flex;
+  justify-content: center;
+
+}
+.type{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+#seat-type{
+  border: none;
+}
+#seat-quantity{
+  border: none;
+}
+
+
+.seatmap{
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 15px;
+  margin: 30px;
+  border-bottom: none;
+}
+.selectedseat{
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  height: 10px;
+}
+
+.btn{
+  background-color: red;
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+ float: right;
+}
